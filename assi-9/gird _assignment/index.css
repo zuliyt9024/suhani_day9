@@ -1,0 +1,59 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    width: 400px;
+   margin-left: 50px;
+ margin-top: 10px;
+   
+}
+
+.father>div {
+ width: 200px;
+ height: 100px;
+ border: 2px solid rgb(12, 12, 12);
+ text-align: center;
+ border-radius: 5px;
+ color: whitesmoke;
+
+ 
+
+}
+.father :nth-child(1){
+    background-color: rgb(158, 107, 107);
+    
+}
+.father :nth-child(2){
+    background-color: rgb(173, 86, 119);
+}
+.father :nth-child(3){
+    background-color: rgb(169, 185, 123);
+}
+.father :nth-child(4){
+    background-color: rgb(40, 4, 75);
+}
+.father :nth-child(5){
+    background-color: rgb(36, 172, 119);
+}
+.father :nth-child(6){
+    background-color: magenta;
+  
+}
+.father :nth-child(7){
+    background-color: rgb(90, 84, 90);
+  
+}
+.father :nth-child(8){
+    background-color: rgb(78, 121, 76);
+  
+}
+.father :nth-child(9){
+    background-color: rgb(161, 124, 161);
+    
+  
+}

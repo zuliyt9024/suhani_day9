@@ -1,0 +1,43 @@
+body {
+        /* font-family: Arial, sans-serif; */
+        margin: 20px;
+    }
+
+    .grid{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100px repeat(5, 1fr);
+        border: 1px solid #9c7f7f;
+         border-collapse: collapse;  
+        text-align: center;
+        gap: 10px;
+    }
+    .grid>div{
+        display: flex; 
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid blueviolet;
+        gap: 20px;
+    }
+    .grid>div:first-child{
+        background-color: rgb(57, 194, 171);
+    }
+    
+    .grid>div:nth-child(even){
+        background-color: rgb(179, 105, 133);
+    }
+     .grid>div:nth-child(odd){
+        background-color: rgb(108, 182, 130);
+    }
+    footer p{
+        width:auto;
+       
+        border: 2px solid rgb(34, 33, 33);
+        border-radius: 20px;
+        background-color: blanchedalmond;
+    }
+
+
+    
