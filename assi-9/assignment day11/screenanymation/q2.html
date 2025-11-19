@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(247, 250, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
+
+
+
+.investor-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.details {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details .name {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.details .role {
+    margin: 0;
+    color: gray;
+}
+
+
+.company-logo {
+    width: 100px;
+    margin-top: auto;
+    margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+
+   
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" class="investor-img" alt="Investor Photo">
+
+        <div class="details">
+            <h3 class="name">Vijay Shekhar Sharma</h3>
+            <p class="role">founder & CEO</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg" alt="Company Logo">
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Rectangle_427_637d69bb57.png" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Kunal shah</h3>
+            <p class="role"> Founder</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/cred_0a47d7b4f8.png" class="company-logo">
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/amrish_rau_pine_labs_144e5e587c.jpg" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Amrish  Rau</h3>
+            <p class="role"><Co-Founder></Co-Founder></p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/pine_labs_0aa2407434.png" class="company-logo">
+    </div>
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Sampad_swain_Instamojo_f12bf6341e.jpg" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Sampad Swain</h3>
+            <p class="role">CO-Founder & CEO</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/instamojo_8763e704f7.png" class="company-logo">
+    </div>
+
+     <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" class="investor-img" alt="Investor Photo">
+
+        <div class="details">
+            <h3 class="name">Vijay Shekhar Sharma</h3>
+            <p class="role">founder & CEO</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg" alt="Company Logo">
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Rectangle_427_637d69bb57.png" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Kunal shah</h3>
+            <p class="role"> Founder</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/cred_0a47d7b4f8.png" class="company-logo">
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/amrish_rau_pine_labs_144e5e587c.jpg" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Amrish  Rau</h3>
+            <p class="role"><Co-Founder></Co-Founder></p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/pine_labs_0aa2407434.png" class="company-logo">
+    </div>
+    <div class="card">
+        <img src="https://cdn.masaischool.com/masai-website/Sampad_swain_Instamojo_f12bf6341e.jpg" class="investor-img">
+
+        <div class="details">
+            <h3 class="name">Sampad Swain</h3>
+            <p class="role">CO-Founder & CEO</p>
+        </div>
+
+        <img src="https://cdn.masaischool.com/masai-website/instamojo_8763e704f7.png" class="company-logo">
+    </div>
+  
+
+
+    
+
+</div>
+</body>
+</html>
