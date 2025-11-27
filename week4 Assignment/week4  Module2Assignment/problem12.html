@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Manipulation</title>
+  </head>
+  <style>
+    #mylist {
+      list-style-type: none;
+    }
+  </style>
+
+  <body>
+    <h1>DOM Manipulation Example</h1>
+    <ul id="mylist">
+      <li>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+    </ul>
+    <button id="add-btn">listclick</button>
+  </body>
+  <script>
+    const ul = document.getElementById("mylist");
+    const btn = document.getElementById("add-btn");
+
+    let count = ul.children.length;
+
+    btn.addEventListener("click", function () {
+      count++;
+      const li = document.createElement("li");
+      li.textContent = "list" + count;
+
+      if (count % 2 === 1) {
+        li.style.fontWeight = "bold";
+        li.style.color = "blue";
+      } else {
+        li.style.fontStyle = "italic";
+        li.style.color = "red";
+      }
+
+      ul.appendChild(li);
+    });
+  </script>
+</html>
