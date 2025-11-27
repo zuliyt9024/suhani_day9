@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *body{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+    }
+    #Box{
+        width: 300px;
+        height: 150px;
+        padding: 15px;
+        background-color: aquamarine;
+        border: 2px solid black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+</style>
+<body>
+    <h2>Interactive Dom Manipulation</h2>
+    <label for="enter clor">Entire Color:</label>
+    <input type="text" id="colorInput" placeholder="red ,blue,green"/>
+    <button id="changeBgBtn">Change Background</button>
+    <br>
+    <br>
+    <label>Enter Text:</label>
+    <input type="text" id="textInput" placeholder="type new content..."/>
+    <button id="update-btn">Update Text</button>
+<div id="Box">This is some initial text content.</div>
+
+
+<script src="problem13.js"></script>
+</body>
+</html>
