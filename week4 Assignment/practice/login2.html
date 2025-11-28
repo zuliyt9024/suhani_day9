@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text"  id="username" placeholder="Enete username"><br><br>
+<input id="password" type ="password" placeholder="Eneter password"><br><br>
+
+<button onclick="login()">login</button>
+<p id="msg">hii my name suhani gautam</p>
+
+
+<script>
+   function login(){
+    let u =document.getElementById("username").value;
+    let p =document.getElementById("password").value;
+    // window.location.href="deshboard.html";
+
+    if(u=="" && p ==""){
+
+document.getElementById("msg").innerHTML="please enter valid"
+    }
+    else{
+        localStorage.setItem("loggedinuser",u)
+        window.location.href="dashboard.html";
+    }
+
+
+
+   } 
+</script>
+</body>
+</html>
